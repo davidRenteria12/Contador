@@ -1,0 +1,75 @@
+:root {
+    --fondo: #f5f7fb;
+    --tarjeta: #ffffff;
+    --color-principal: #0b74de;
+  }
+  
+* { 
+  box-sizing: border-box; 
+  }
+
+  
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--fondo);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image:url(image.png) ;
+    background-repeat: "no-repeat";
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.card{
+  width: 320px;
+  background-color: var(--tarjeta);
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+  border: 2px solid black;
+}
+
+#value{
+  font-size: 50px;
+  margin: 14px 0;
+}
+
+.controllers{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+
+
+
+button{
+    padding: 15px 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    background: var(--color-principal);
+    border-radius: 15px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.3);
+    border: 2px solid black;
+    cursor: pointer;
+    
+  }
+  
+#restarr{
+    background-color: aqua;
+  }
+#sumarr{
+    background-color: aqua;
+  }
+
+#reset{
+    background: rgb(219, 84, 84);
+    color: white;
+  }
